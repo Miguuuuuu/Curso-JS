@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table td,
+        table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+
+        table caption {
+            caption-side: bottom;
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px 0;
+
+        }
+
+        tfoot td, table th{
+            background: #ddd;
+            font-style: italic;
+        }
+        
+        .nota-acima {
+            background: green;
+        }
+
+        .nota-abaixo {
+            background: red;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum, dolor sit.</p>
+    <table>
+        <caption>Uma descrição para a Tabela</caption>
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th> Avaliação </th>
+                <th>Nota total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Robson Silva Pinto</td>
+                <td class="nota-acima"> 8,0</td>
+                <td class="nota-acima">15,0 </td>
+            </tr>
+            <tr>
+                <td>Jackson Barbosa</td>
+                <td class="nota-abaixo"> 1,5</td>
+                <td class="nota-abaixo"> 11,5 </td>
+            </tr>
+            <tr>
+                <td>Rayanne Silva</td>
+                <td class="nota-acima"> 10,0 </td>
+                <td>Corpo 9</td>
+            </tr>
+
+            <tr>
+                <td>Sofia Pinto</td>
+                <td class="nota-acima"> 6,0</td>
+                <td>Corpo 9</td>
+            </tr>
+
+            <tr>
+                <td>Robson Pedreiro</td>
+                <td class="nota-abaixo" > 0,0</td>
+                <td>Corpo 9</td>
+            </tr>
+
+            
+    </table>
+</body>
+
+</html>
